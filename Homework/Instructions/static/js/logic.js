@@ -112,33 +112,6 @@ function cr_Features(earthquakeData) {
   // Define colors depending on the magnituge of the earthquake
   function fillColor(d) {
   
-    //   switch (true) {
-    //     case magnituge >= 6.0:
-    //       return 'red';
-    //       break;
-        
-    //     case magnituge >= 5.0:
-    //       return 'orange';
-    //       break;
-  
-    //     case magnituge >= 4.0:
-    //       return 'darkorange';
-    //       break;
-        
-    //     case magnituge >= 3.0:
-    //       return 'orange';
-    //       break;
-  
-    //     case magnituge >= 2.0:
-    //       return 'darkgreen';
-    //       break;
-  
-    //     case magnituge >= 1.0:
-    //       return 'green';
-    //       break;
-  
-    //     default:
-    //       return 'greenyellow';
           return d >=6 ? 'red' :
            d >=5   ? 'orange' :
            d >=4  ? 'darkorange' :
